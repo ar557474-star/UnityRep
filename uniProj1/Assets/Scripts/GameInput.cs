@@ -1,0 +1,50 @@
+using System;
+using UnityEngine;
+
+public class GameInput : MonoBehaviour
+{
+    public event EventHandler OnInteractAction;
+    private PlayerInputAction plIpActions;
+    private void Awake()
+    {
+        plIpActions = new PlayerInputAction();
+        plIpActions.Player.Enable();
+
+        plIpActions.Player.Interact.performed += InteractPerformed;
+    }//awake
+
+    private void InteractPerformed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnInteractAction?.Invoke(this , EventArgs.Empty);
+    }
+
+
+    public Vector2 GetMovementVector()
+    {
+
+        //Vector2 inputVector = new Vector2(0, 0);
+
+        Vector2 inputVector = plIpActions.Player.Move.ReadValue<Vector2>();
+/*
+        if (Input.GetKey(KeyCode.W))
+        {
+            //Debug.Log("pressing");
+            inputVector.y = +1;
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            inputVector.y = -1;
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            inputVector.x = -1;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            inputVector.x = +1;
+        }
+        */
+        inputVector = inputVector.normalized;
+        return inputVector;
+    }
+}
