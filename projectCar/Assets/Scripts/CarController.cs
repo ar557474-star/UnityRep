@@ -23,15 +23,23 @@ public class CarController : MonoBehaviour
     [SerializeField] Transform carCenterOfMass;
     private Rigidbody rigidbody;
 
-    [SerializeField] UiManager uiManager; 
+    UiManager uiManager; 
 
     void Awake()
     {
         rigidbody = GetComponent<Rigidbody>();
+        //uiManager = GameObject.FindGameObjectWithTag("UiManager");
     }
     void Start()
     {
         rigidbody.centerOfMass = carCenterOfMass.localPosition;
+
+        GameObject managerObj = GameObject.FindWithTag("UiManager");
+        if (managerObj != null)
+        {
+            uiManager = managerObj.GetComponent<UiManager>();
+            //Debug.Log("found");
+        }
     }
 
     // Update is called once per frame

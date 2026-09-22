@@ -119,7 +119,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1329813215462525444
 Transform:
   m_ObjectHideFlags: 0
@@ -191,11 +191,10 @@ MonoBehaviour:
   backRightWheelTransform: {fileID: 7485180842862896824}
   backLeftWheelTransform: {fileID: 8341592011127855440}
   frontLeftWheelTransform: {fileID: 8067570225245678959}
-  motorForce: 50
+  motorForce: 150
   steeringAngle: 30
   brakeForce: 100
   carCenterOfMass: {fileID: 135580674092850172}
-  uiManager: {fileID: 0}
 --- !u!1 &3011161768005539995
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 135580674092850172}
   m_Layer: 0
-  m_Name: centerOfMass
+  m_Name: carCenterOfMass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

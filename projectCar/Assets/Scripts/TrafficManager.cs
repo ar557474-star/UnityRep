@@ -12,11 +12,15 @@ public class TrafficManager : MonoBehaviour
     void Awake()
     {
         GameObject playerObj = GameObject.FindWithTag("Player");
-        carController = playerObj.GetComponent<CarController>();
+        //carController = playerObj.GetComponent<CarController>();
     }
     void Start()
     {
         StartCoroutine(TrafficSpawner());
+    }
+    public void SetCarControler(CarController controller)
+    {
+        carController = controller;
     }
 
     IEnumerator TrafficSpawner()

@@ -8,7 +8,11 @@ public class EndlessCity : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        playerCarTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+       // playerCarTransform = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+    }
+    public void SetTransform(Transform transform)
+    {
+        playerCarTransform = transform;
     }
 
     // Update is called once per frame

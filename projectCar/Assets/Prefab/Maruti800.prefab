@@ -334,10 +334,11 @@ MonoBehaviour:
   backRightWheelTransform: {fileID: 3759155304535284231}
   backLeftWheelTransform: {fileID: 3797967428016288421}
   frontLeftWheelTransform: {fileID: 6646104659218426595}
-  motorForce: 100
+  motorForce: 250
   steeringAngle: 30
   brakeForce: 100
   carCenterOfMass: {fileID: 3068634468821757210}
+  uiManager: {fileID: 0}
 --- !u!1 &3184802331201615353
 GameObject:
   m_ObjectHideFlags: 0

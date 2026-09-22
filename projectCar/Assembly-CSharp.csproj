@@ -53,13 +53,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Vehicle.cs" />
+    <Compile Include="Assets\Scripts\Garage\CarSelection.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
     <Compile Include="Assets\Scripts\EndlessCity.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\LaneMovement.cs" />
     <Compile Include="Assets\Scripts\CameraMovemnet.cs" />
     <Compile Include="Assets\Scripts\DestroyOnContact.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\CarSpawner.cs" />
     <Compile Include="Assets\Scripts\FollowCar.cs" />
+    <Compile Include="Assets\Scripts\Garage\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Garage\SceneSwitcher.cs" />
     <Compile Include="Assets\Scripts\UiManager.cs" />
     <Compile Include="Assets\Scripts\TrafficManager.cs" />
   </ItemGroup>

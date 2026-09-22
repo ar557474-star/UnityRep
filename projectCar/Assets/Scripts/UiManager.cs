@@ -9,7 +9,7 @@ public class UiManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI distanceText;
     [SerializeField] TextMeshProUGUI scoreText;
     CarController carController;
-    Transform carTransform;
+    //Transform carTransform;
     private float speed = 0f;
     private float distance = 0f;
     private float score = 0f;
@@ -24,29 +24,32 @@ public class UiManager : MonoBehaviour
     void Awake()
     {
         GameObject playerObj = GameObject.FindWithTag("Player");
-        carController = playerObj.GetComponent<CarController>();
-        carTransform = carController.GetComponent<Transform>();
+        //carController = playerObj.GetComponent<CarController>();
+        //carTransform = carController.GetComponent<Transform>();
     }
     void Start()
     {
         gameOverPanel.SetActive(false);
         Time.timeScale = 1f;
     }
-
+    public void SetCarControler(CarController controller)
+    {
+        carController = controller;
+    }
     // Update is called once per frame
     void Update()
     {
         speed = carController.CarSpeed();
         speedText.text = speed.ToString("0.00" + "km/h");
 
-        distance= carTransform.position.z / 1000;
+        distance= carController.transform.position.z / 1000;
         distanceText.text = distance.ToString("0.00"+"Km");
         ScoreUi();
         MaximumSpeed();
     }
     void ScoreUi()
     {
-        score = carTransform.position.z * 3;
+        score = carController.transform.position.z * 3;
         scoreText.text = score.ToString("0");
     }
     public void GameOver()
@@ -72,5 +75,9 @@ public class UiManager : MonoBehaviour
     {
         var currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);
+    }
+    public void GarageButton()
+    {
+        SceneManager.LoadScene("Garage");
     }
 }
