@@ -119,6 +119,7 @@ public class CarController : MonoBehaviour
     {
         if(collision.gameObject.tag == "TrafficVehicle")
         {
+            AudioManager.instance.StopLevel01Music();
             //StartCoroutine(pause());
             uiManager.GameOver();
         }
