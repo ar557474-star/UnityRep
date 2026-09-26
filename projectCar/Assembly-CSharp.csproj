@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\EndlessCity.cs" />
     <Compile Include="Assets\Scripts\CarController.cs" />
     <Compile Include="Assets\Scripts\LaneMovement.cs" />
+    <Compile Include="Assets\Scripts\CarSound.cs" />
     <Compile Include="Assets\Scripts\Level01Music.cs" />
     <Compile Include="Assets\Scripts\CameraMovemnet.cs" />
     <Compile Include="Assets\Scripts\DestroyOnContact.cs" />

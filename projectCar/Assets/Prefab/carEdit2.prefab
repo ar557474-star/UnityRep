@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 5290025034300313048}
   - component: {fileID: 7473262712644906075}
   - component: {fileID: -4299048870069121382}
+  - component: {fileID: 3285449448791505002}
   m_Layer: 0
   m_Name: carEdit2
   m_TagString: Player
@@ -606,6 +607,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3285449448791505002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176981465425354617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9376ddc084bca74387f889e2396e718, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarSound
+  engineSound: {fileID: 8300000, guid: 1b6ffa2bc0c61bd4bb083214ccd5621b, type: 3}
+  brakeSound: {fileID: 8300000, guid: 0eba4525e91d5f1469fd660c51f7b9ba, type: 3}
+  hitSound: {fileID: 8300000, guid: 9e71b9eb57aa3eb4da6a5a046b0b0824, type: 3}
 --- !u!1 &6585684392727765911
 GameObject:
   m_ObjectHideFlags: 0

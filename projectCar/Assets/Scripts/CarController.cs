@@ -112,21 +112,29 @@ public class CarController : MonoBehaviour
     }
     public float CarSpeed()
     {
-        float speed = rigidbody.linearVelocity.magnitude * 2.23693629f;
+        float speed = rigidbody.linearVelocity.magnitude * 1.609f;
         return speed;
     }
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "TrafficVehicle")
         {
-            AudioManager.instance.StopLevel01Music();
+
+            StartCoroutine(GameOverDelay());
             //StartCoroutine(pause());
-            uiManager.GameOver();
         }
     }
-    IEnumerator pause()
+    //IEnumerator pause()
+    //{
+    //    yield return new WaitForSeconds(0.2f);
+    //    Time.timeScale = 0f;
+    //}
+    IEnumerator GameOverDelay()
     {
-        yield return new WaitForSeconds(0.2f);
-        Time.timeScale = 0f;
+        GetComponent<CarSound>().PlayHitSound();
+        yield return new WaitForSeconds(1f);
+        AudioManager.instance.StopLevel01Music();
+        GetComponent<CarSound>().StopAllCarSounds();
+        uiManager.GameOver();
     }
 }

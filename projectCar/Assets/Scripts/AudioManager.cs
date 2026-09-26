@@ -42,7 +42,7 @@ public class AudioManager : MonoBehaviour
         musicSource.clip = level01Music;
         musicSource.playOnAwake = true;
         musicSource.loop = true;
-        musicSource.volume = 0.04f;
+        musicSource.volume = 0.008f;
         musicSource.Play();
     }
     public void StopLevel01Music()
