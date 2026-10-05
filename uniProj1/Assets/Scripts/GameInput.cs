@@ -15,7 +15,7 @@ public class GameInput : MonoBehaviour
 
     private void InteractPerformed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
-        OnInteractAction?.Invoke(this , EventArgs.Empty);
+        OnInteractAction?.Invoke(this , EventArgs.Empty);//this->sender is this script
     }
 
 

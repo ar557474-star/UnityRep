@@ -162,7 +162,7 @@ MonoBehaviour:
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
-    FieldOfView: 20
+    FieldOfView: 18
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -190,7 +190,7 @@ Transform:
   m_GameObject: {fileID: 223653178}
   serializedVersion: 2
   m_LocalRotation: {x: 0.41785684, y: 0, z: 0, w: 0.90851295}
-  m_LocalPosition: {x: 0, y: 21, z: -18}
+  m_LocalPosition: {x: 0, y: 21, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -214,7 +214,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 21, z: -18}
+  FollowOffset: {x: 0, y: 21, z: -16}
 --- !u!114 &223653184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -316,7 +316,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 20
+  field of view: 18
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -343,7 +343,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0.41785684, y: 0, z: 0, w: 0.9085129}
-  m_LocalPosition: {x: 0, y: 21, z: -18}
+  m_LocalPosition: {x: 0, y: 21, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -473,6 +473,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+      propertyPath: tomatoPrefab
+      value: 
+      objectReference: {fileID: 6670758678536237231, guid: 2ad299457601f8e4dade55a4103f7fcd, type: 3}
+    - target: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 6091a14611ec0eb4186f122c1f05c958, type: 2}
     - target: {fileID: 5220303447140594569, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
       propertyPath: m_Name
       value: ClearCounter (1)
@@ -760,6 +768,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Player
   moveSpeed: 7
   gameInput: {fileID: 489180505}
+  countersLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +933,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2002983573 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+  m_PrefabInstance: {fileID: 363141586}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57489d0d2991a4a438af3d13ec585ca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClearCounter
 --- !u!1001 &3635261882136750862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -970,6 +992,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 4bb1aa9dabbd5134f9bf969ab12d7412, type: 2}
+    - target: {fileID: 2878049562575601485, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 2002983573}
     - target: {fileID: 5220303447140594569, guid: 715cad6c899db67468cc39b9da2abcae, type: 3}
       propertyPath: m_Name
       value: ClearCounter
