@@ -1,14 +1,15 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : MonoBehaviour, IKitchenObjectParent
 {
     public static Player Instance { get; private set; }
 
     public event EventHandler<OnSelectedCounterChangedEventsArgs> OnSelectedCounterChanged;
     public class OnSelectedCounterChangedEventsArgs : EventArgs
     {
-        public ClearCounter selectedCounter;
+        public BaseCounter selectedCounter;
     }
 
 
@@ -19,7 +20,10 @@ public class Player : MonoBehaviour
     private Vector3 lastInteractDir;
     [SerializeField] private LayerMask countersLayerMask;
 
-    private ClearCounter selectedCounter;
+    private BaseCounter selectedCounter;
+
+    private KitchenObject kitchenObject;
+    [SerializeField] private Transform kitchenObjectHoldPoint;
     private void Awake()
     {
         if(Instance != null)
@@ -31,6 +35,15 @@ public class Player : MonoBehaviour
     private void Start()
     {
         gameInput.OnInteractAction += GameInputOnInteractAction;
+        gameInput.OnInteractAlternateAction += GameInput_OnInteractAlternateAction;
+    }
+
+    private void GameInput_OnInteractAlternateAction(object sender, EventArgs e)
+    {
+        if (selectedCounter != null)
+        {
+            selectedCounter.InteractAlternate(this);
+        }
     }
 
     private void GameInputOnInteractAction(object sender, EventArgs e)
@@ -38,7 +51,7 @@ public class Player : MonoBehaviour
 
         if (selectedCounter != null)
         {
-            selectedCounter.Interact();
+            selectedCounter.Interact(this);
         }
     }
 
@@ -63,13 +76,13 @@ public class Player : MonoBehaviour
         if (Physics.Raycast(transform.position, lastInteractDir, out RaycastHit hit,interactDistance, countersLayerMask))
         {
             //Debug.Log(hit.transform);//
-            if(hit.transform.TryGetComponent(out ClearCounter clearCounter))
+            if(hit.transform.TryGetComponent(out BaseCounter baseCounter))
             {
                 //selectedCounter = clearCounter;
-                if(clearCounter != selectedCounter)
+                if(baseCounter != selectedCounter)
                 {
                  //   selectedCounter = clearCounter;
-                    SetSelectedCounter(clearCounter);
+                    SetSelectedCounter(baseCounter);
 
                 }
             } else
@@ -111,7 +124,7 @@ public class Player : MonoBehaviour
         transform.forward = Vector3.Lerp(transform.forward, moveDir, Time.deltaTime * 10);//rotate in move dir
         //transform.forward = moveDir;
     }
-    private void SetSelectedCounter(ClearCounter selectedCounter)
+    private void SetSelectedCounter(BaseCounter selectedCounter)
     {
         this.selectedCounter = selectedCounter;
 
@@ -121,4 +134,27 @@ public class Player : MonoBehaviour
         });
     }
 
+    #region  KitchenObjectParentInterface
+    public Transform GetKitchenObjectFollowTransform()
+    {
+        return kitchenObjectHoldPoint;
+    }
+    public void SetKitchenObject(KitchenObject kitchenObject)
+    {
+        this.kitchenObject = kitchenObject;
+    }
+    public KitchenObject GetKitchenObject()
+    {
+        return kitchenObject;
+    }
+    public void ClearKitcthenObject()
+    {
+        kitchenObject = null;
+    }
+    public bool HasKitchenObject()
+    {
+        return kitchenObject != null;
+    }
+
+    #endregion
 }

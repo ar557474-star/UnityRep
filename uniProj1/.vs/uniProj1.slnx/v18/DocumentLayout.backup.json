@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "F:\\UNITY\\UnityRep\\uniProj1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\selectedcountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\selectedcountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platecompletevisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\platekitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\stovecountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\progressbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\progressbarui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\platescountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\platescountervisual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\platescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\platescounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\ihasprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ihasprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\stovecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\clearcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\clearcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\kitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\kitchenobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\playreranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playreranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\cuttingcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\scriptableobjectsscripts\\burningrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjectsscripts\\burningrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\basecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\basecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\scriptableobjectsscripts\\fryingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjectsscripts\\fryingrecipeso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\scriptableobjectsscripts\\kitchenobjectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjectsscripts\\kitchenobjectso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\countersscripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countersscripts\\trashcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\ikitchenobjectparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ikitchenobjectparent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\lookatcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lookatcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|f:\\unity\\unityrep\\uniproj1\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +86,238 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectedCounterVisual.cs",
-              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\SelectedCounterVisual.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SelectedCounterVisual.cs",
-              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\SelectedCounterVisual.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SelectedCounterVisual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PlateKitchenObject.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlateKitchenObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlateKitchenObject.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T12:02:59.971Z",
+              "WhenOpened": "2026-10-12T17:49:58.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
-              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PlateCompleteVisual.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlateCompleteVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlateCompleteVisual.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlateCompleteVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlateCompleteVisual.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-02T14:07:03.528Z",
+              "WhenOpened": "2026-10-12T17:35:04.551Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StoveCounter.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\StoveCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\StoveCounter.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\StoveCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\StoveCounter.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAHIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T21:33:01.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IHasProgress.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\IHasProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IHasProgress.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\IHasProgress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IHasProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T11:43:58.442Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameInput.cs",
-              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\GameInput.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
-              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\GameInput.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Title": "StoveCounterVisual.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\StoveCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\StoveCounterVisual.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\StoveCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\StoveCounterVisual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-01T12:01:59.54Z",
+              "WhenOpened": "2026-10-11T10:57:49.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ClearCounter.cs",
-              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ClearCounter.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ClearCounter.cs",
-              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ClearCounter.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ClearCounter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "ProgressBarUi.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ProgressBarUi.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ProgressBarUi.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ProgressBarUi.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ProgressBarUi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T16:53:44.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-09T16:54:45.133Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "PlayrerAnimator.cs",
-              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlayrerAnimator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayrerAnimator.cs",
-              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\PlayrerAnimator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayrerAnimator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Title": "PlatesCounterVisual.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\PlatesCounterVisual.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\PlatesCounterVisual.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\PlatesCounterVisual.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\PlatesCounterVisual.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T18:35:42.23Z"
+              "WhenOpened": "2026-10-11T20:25:50.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlatesCounter.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\PlatesCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\PlatesCounter.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\PlatesCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\PlatesCounter.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-11T19:43:37.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameInput.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\GameInput.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameInput.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\GameInput.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameInput.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T14:47:29.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "KitchenObject.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\KitchenObject.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\KitchenObject.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\KitchenObject.cs",
+              "RelativeToolTip": "Assets\\Scripts\\KitchenObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T13:14:46.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CuttingCounter.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\CuttingCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\CuttingCounter.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\CuttingCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\CuttingCounter.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:32:29.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseCounter.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\BaseCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\BaseCounter.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\BaseCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\BaseCounter.cs",
+              "ViewState": "AgIAAAYAAACgkbJF0nYgwA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T18:26:56.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BurningRecipeSO.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\BurningRecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjectsScripts\\BurningRecipeSO.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\BurningRecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjectsScripts\\BurningRecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T19:55:09.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FryingRecipeSO.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\FryingRecipeSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjectsScripts\\FryingRecipeSO.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\FryingRecipeSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjectsScripts\\FryingRecipeSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:33:35.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "KitchenObjectSO.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\KitchenObjectSO.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjectsScripts\\KitchenObjectSO.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\ScriptableObjectsScripts\\KitchenObjectSO.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjectsScripts\\KitchenObjectSO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-10T16:32:14.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IKitchenObjectParent.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\IKitchenObjectParent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\IKitchenObjectParent.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\IKitchenObjectParent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\IKitchenObjectParent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T20:54:29.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TrashCounter.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\TrashCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountersScripts\\TrashCounter.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\CountersScripts\\TrashCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountersScripts\\TrashCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T20:54:17.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LookAtCamera.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\LookAtCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LookAtCamera.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\LookAtCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LookAtCamera.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-09T18:17:53.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Player.cs",
+              "DocumentMoniker": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "F:\\UNITY\\UnityRep\\uniProj1\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-08T14:48:20.846Z"
             }
           ]
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameInput : MonoBehaviour
 {
     public event EventHandler OnInteractAction;
+    public event EventHandler OnInteractAlternateAction;
     private PlayerInputAction plIpActions;
     private void Awake()
     {
@@ -11,7 +12,13 @@ public class GameInput : MonoBehaviour
         plIpActions.Player.Enable();
 
         plIpActions.Player.Interact.performed += InteractPerformed;
+        plIpActions.Player.InteractAlternative.performed += InteractAlternative_performed;
     }//awake
+
+    private void InteractAlternative_performed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
+    {
+        OnInteractAlternateAction?.Invoke(this, EventArgs.Empty);
+    }
 
     private void InteractPerformed(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
