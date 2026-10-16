@@ -25,7 +25,7 @@ public class PlatesCounter : BaseCounter
                 plateSpawnAmount++;
                 OnPlateSpawned?.Invoke(this, EventArgs.Empty);
 
-                Debug.Log("spawnPlate " + plateSpawnAmount);
+                //Debug.Log("spawnPlate " + plateSpawnAmount);
             }
 
         }
