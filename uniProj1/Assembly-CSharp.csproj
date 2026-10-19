@@ -53,12 +53,16 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.5.7f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UiScripts\GameOverUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\UiScripts\GamePlayingClockUi.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\DeliveryCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\ResetStaticDataManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectsScripts\FryingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\CuttingCounter.cs" />
+    <Compile Include="Assets\Scripts\Loader.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\DeliveryManager.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\TrashCounter.cs" />
@@ -66,10 +70,12 @@
     <Compile Include="Assets\Scripts\ScriptableObjectsScripts\CuttingRecipeSO.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\StoveCounterSound.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectsScripts\KitchenObjectSO.cs" />
+    <Compile Include="Assets\Scripts\UiScripts\GameStartCountdownUI.cs" />
     <Compile Include="Assets\Scripts\PlayrerAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\PlatesCounter.cs" />
+    <Compile Include="Assets\Scripts\UiScripts\MainMenuUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectsScripts\AudioClipRefsSO.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\StoveCounter.cs" />
@@ -88,6 +94,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\UiScripts\PlateIconsSingleUi.cs" />
+    <Compile Include="Assets\Scripts\UiScripts\GamePausedUI.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjectsScripts\BurningRecipeSO.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -107,8 +114,12 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\ContainerCounter.cs" />
     <Compile Include="Assets\Scripts\CountersScripts\PlatesCounterVisual.cs" />
+    <Compile Include="Assets\Scripts\KitchenGameManager.cs" />
+    <Compile Include="Assets\Scripts\MusicManager.cs" />
+    <Compile Include="Assets\Scripts\UiScripts\OptionUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\Scripts\LoaderCallback.cs" />
     <Compile Include="Assets\Scripts\IHasProgress.cs" />
     <Compile Include="Assets\Scripts\PlateKitchenObject.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
